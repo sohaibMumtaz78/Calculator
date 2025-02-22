@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 50px;
+    width: 50%;
+    /* width: 50%; */
+    background-color: black;
+}
+
+.inputcontainer input{
+    width: 100%;
+    padding: 10px;
+    /* margin: ; */
+    text-align: right;
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+    background-color: black;
+    color: white;
+}
+
+.tablecontainer{
+    width: 100%;
+    text-align: center   ;
+    border-spacing: 10px;
+
+}
+
+/* .tablecontainer table{
+    width: 100%;
+} */
+
+.tablecontainer td{
+    background-color: yellow;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    border-radius: 20px;
+    /* gap: 10px; */
+    cursor: pointer;
+    transition: all 0.8s ease;
+    /* border-spacing: 10px; */
+
+}
+
+.tablecontainer td:hover{
+    background-color: white;
+    scale: 1.1;
+}
